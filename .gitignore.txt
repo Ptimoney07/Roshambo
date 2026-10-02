@@ -1,0 +1,22 @@
+##   Visual Studio & .NET Core Cache / User Settings
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+##   Build Artifacts (.NET 10 / Roshamble Executables)
+[Bb]in/
+[Oo]bj/
+*.exe
+*.dll
+*.pdb
+##   Testing Platform & Coverlet Artifacts
+# Excludes Microsoft Testing Platform artifacts and logs
+.attachments/
+TestResults/
+*.trx
+*.coverage
+*.cobertura.xml
+##   OS / IDE Specific
+.DS_Store
+Thumbs.db
